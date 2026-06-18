@@ -28,7 +28,7 @@ class AdminResource extends Resource
     protected static string|UnitEnum|null $navigationGroup = 'Manajemen SDM';
     protected static ?int $navigationSort = 2;
 
-    protected static ?string $recordTitleAttribute = 'Admin';
+    protected static ?string $recordTitleAttribute = 'nama';
 
     public static function form(Schema $schema): Schema
     {
