@@ -55,7 +55,7 @@ class User extends Authenticatable
      */
     public function announcements(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
-        return $this->hasMany(Announcement::class, 'users_id');
+        return $this->hasMany(Announcement::class, 'users_id', 'id');
     }
 
     /**
