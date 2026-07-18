@@ -10,7 +10,7 @@ class CooperationSchema
     {
         return $schema
             ->components([
-                FileUpload::make('logo')
+                FileUpload::make('image')
                     ->label('Logo Kerja Sama')
                     ->image()
                     ->directory('cooperations')

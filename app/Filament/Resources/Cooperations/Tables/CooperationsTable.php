@@ -17,7 +17,7 @@ class CooperationsTable
                 ImageColumn::make('image')
                     ->label('Logo')
                     ->disk('public')
-                    ->height(60),
+                    ->height(80),
     
                 TextColumn::make('created_at')
                     ->label('Ditambahkan')
